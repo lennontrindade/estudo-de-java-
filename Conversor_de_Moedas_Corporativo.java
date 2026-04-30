@@ -4,7 +4,7 @@ public class Conversor_de_Moedas_Corporativo {
     static void conversor(double dolar) {
         Conversor_de_Moedas_Corporativo dolar_nota = new Conversor_de_Moedas_Corporativo();
         dolar_nota.real = 5f;
-        System.out.println(dolar * dolar_nota.real);
+        System.out.println("deu " + dolar * dolar_nota.real + " reais");
     }
 
     public static void main(String[] args) {
